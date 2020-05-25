@@ -23,3 +23,14 @@
   compare(expect_data, actual_data)
   ```
   - expect_data 和 actual_data 目前支持string, list, dict 以及各种嵌套。有其他类型需要请联系我
+
+## 3. calculate_str_hex_length.py
+### 计算输入字符串的十六进制长度：
+#### 将输入字符串转换成GBK编码， 然后转成十六进制，返回有多少个Byte
+### 入参：str
+- 使用方法：
+  打开命令行，在脚本目录执行：
+  ```
+  python calculate_str_hex_length.py "127.0.0.1"
+  ```
+  - 返回 9
